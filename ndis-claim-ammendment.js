@@ -6,7 +6,6 @@ function validateNdisClaimRef(event) {
 }
 
 window.onload = function () {
-  /* Add event listner to all time input fields */
-  $('input[data-field-name*="ndis_claim_reference"').addEventListener("change", validateNdisClaimRef);
-  console.log("genu script added");
+  document.getElementById('input[data-field-name*="ndis_claim_reference"').addEventListener("change", validateNdisClaimRef);
+  console.log("test genu script added");
 };
